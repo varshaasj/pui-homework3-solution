@@ -9,8 +9,8 @@
         }
     </style>
     <title>Details</title>
-    <link rel="stylesheet" href="/pui-homework2-solution/style.css">
-    
+    <link rel="stylesheet" href="/pui-homework3-solution/style.css">
+    <script defer src="/pui-homework3-solution/js/app.js"></script>
     
   </head>
 
@@ -18,15 +18,15 @@
   <body>
     <div class="row-header">
       <div class="logo-div">
-          <a href="/pui-homework2-solution/index.html"><img class="logo-main" src="/pui-homework2-solution/assets/logo-01.svg" /></a>
+          <a href="/pui-homework3-solution/index.html"><img class="logo-main" src="/pui-homework3-solution/assets/logo-01.svg" /></a>
       </div>
       <div class="hr-div">
           <div class="nav-links">
               <div class="tab-div">
-                  <a href="/pui-homework2-solution/index.html">PRODUCTS</a>
+                  <a href="/pui-homework3-solution/index.html">PRODUCTS</a>
               </div>
               <div class="tab-div">
-                  <a href="/pui-homework2-solution/cart.html"> CART</a>
+                  <a href="/pui-homework3-solution/cart.html"> CART</a>
               </div> 
 
           </div>
@@ -37,7 +37,7 @@
     
   <div class="details-content">
       <div class="details-col1">
-        <img class="image" src="/pui-homework2-solution/assets/original-cinnamon-roll.jpg" />
+        <img class="image" src="/pui-homework3-solution/assets/original-cinnamon-roll.jpg" />
       </div>
       <div class="details-col2">
         <div class="customize-desc">
@@ -45,20 +45,20 @@
         </div>
         <div class="customize-form">
                 <label for="options">Glazing:</label><br>
-                <select name="options" id="glazing">
-                  <option value="org">Keep Original</option>
-                  <option value="sugar">Sugar Milk</option>
-                  <option value="vanilla">Vanilla Milk</option>
-                  <option value="choco">Double Chocolate</option>
+                <select id="glazing">
+                  <option value="0g">Keep original</option>
+                  <option value="1g">Sugar milk</option>
+                  <option value="2g">Vanilla milk</option>
+                  <option value="3g">Double chocolate</option>
                 </select>
                 <br><br>
 
                 <label for="options">Pack Size:</label><br>
-                <select name="options" id="size">
-                  <option value="1">1</option>
-                  <option value="3">3</option>
-                  <option value="6">6</option>
-                  <option value="12">12</option>
+                <select id="size">
+                  <option value="0s">1</option>
+                  <option value="1s">3</option>
+                  <option value="2s">6</option>
+                  <option value="3s">12</option>
                 </select>
                 <br><br>
                
@@ -66,11 +66,11 @@
         <div class="price-cart">
 
        
-        <div class="price">
+        <div id="price">
         $2.49
         </div>
         <div class="add-cart">
-        <a href="/pui-homework2-solution/cart.html">
+        <a href="/pui-homework3-solution/cart.html">
             <button class="cart-button">Add to Cart</button>
         </a>
       </div>
